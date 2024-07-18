@@ -55,3 +55,9 @@ h1 {
     padding: 20x 10%;
     background: rgba(0, 0, 0, 0.8);
 }
+
+.portrait img{
+    border: 2px solid;
+    border-color: black;
+    border-radius: 5%;
+}
