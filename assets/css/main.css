@@ -12,6 +12,23 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+h1 {
+    color: blanchedalmond;
+}
+
+.icon {
+    float: left;
+    padding: 10px;
+}
+
+.navcarrier {
+    padding-top: 20px;
+}
+
+.navbar {
+    float: right;
+}
+
 .navbar a{
     font-size: 18;
     color: darkgray;
@@ -35,6 +52,6 @@ body {
     top: 0;
     left: 0;
     width: 100%;
-    padding: 35px 10%;
+    padding: 20x 10%;
     background: rgba(0, 0, 0, 0.8);
 }
