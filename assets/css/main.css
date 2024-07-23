@@ -56,6 +56,11 @@ h1 {
     background: rgba(0, 0, 0, 0.8);
 }
 
+.portrait {
+    padding-left: 15%;
+    padding-top: 10%;
+}
+
 .portrait img{
     border: 2px solid;
     border-color: black;
