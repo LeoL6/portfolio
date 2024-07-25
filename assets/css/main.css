@@ -27,6 +27,10 @@ h1 {
     color: blanchedalmond;
 }
 
+h2 {
+    color: rgb(245, 225, 195);
+}
+
 .icon {
     float: left;
     padding: 10px;
