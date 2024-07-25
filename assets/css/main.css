@@ -14,8 +14,12 @@
     list-style: none;
 }
 
+p {
+    color: beige;
+}
+
 body {
-    background-color: rgb(39, 49, 49);
+    background-color: rgb(10, 10, 10);
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -60,16 +64,36 @@ h1 {
     left: 0;
     width: 100%;
     padding: 20x 10%;
-    background: rgba(0, 0, 0, 0.8);
-}
-
-.portrait {
-    padding-left: 15%;
-    padding-top: 10%;
+    background: rgba(20, 20, 20, 0.8);
 }
 
 .portrait img{
     border: 2px solid;
     border-color: black;
     border-radius: 5%;
+}
+
+.intro-flex {
+    padding-left: 15%;
+    padding-top: 10%;
+    display: flex;
+}
+
+.about-flex {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.element {
+    width: 20%;
+    height: 300px;
+
+    border: 2px solid;
+    border-color: blanchedalmond;
+    border-radius: 5%;
+}
+
+.element + .element {
+    margin-left: 4%;
 }
