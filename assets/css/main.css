@@ -78,13 +78,21 @@ h2 {
 }
 
 .intro-flex {
-    padding-top: 10%;
+    margin-top: 12%;
 
     display: flex;
     justify-content: center;
 }
 
-.about-flex {
+.portrait + .intro-text {
+    margin-left: 10px;
+}
+
+.section {
+    margin-top: 8%;
+}
+
+.section-flex {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -97,4 +105,9 @@ h2 {
     border: 2px solid;
     border-color: blanchedalmond;
     border-radius: 5%;
+}
+
+.section-title {
+    text-align: center;
+    margin-bottom: 2%;
 }
