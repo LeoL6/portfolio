@@ -23,7 +23,7 @@ body {
 }
 
 .main {
-    margin-left: 160px;
+    margin-left: 40%;
     padding: 0px 10px;
 }
 
@@ -40,9 +40,9 @@ h3 {
     padding: 10px;
 }
 
-.sidenav {
+.sidebar {
     height: 100%;
-    width: 160px;
+    width: 40%;
     position: fixed;
     z-index: 1;
     top: 0;
@@ -50,6 +50,10 @@ h3 {
     overflow-x: hidden;
     padding-top: 20px;
     background-color: rgb(20, 20, 20);
+}
+
+.sidebar-inner {
+    padding-left: 10%;
 }
 
 .sidenav a{
