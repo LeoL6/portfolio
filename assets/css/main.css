@@ -23,12 +23,17 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-h1 {
+.main {
+    margin-left: 160px;
+    padding: 0px 10px;
+}
+
+h1, h2 {
     color: blanchedalmond;
 }
 
-h2 {
-    color: rgb(245, 225, 195);
+h3 {
+    color: rgb(225, 205, 175);
 }
 
 .icon {
@@ -36,15 +41,19 @@ h2 {
     padding: 10px;
 }
 
-.navcarrier {
+.sidenav {
+    height: 100%;
+    width: 160px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
     padding-top: 20px;
+    background-color: rgb(20, 20, 20);
 }
 
-.navbar {
-    float: right;
-}
-
-.navbar a{
+.sidenav a{
     font-size: 18;
     color: darkgray;
     font-weight: 400;
@@ -53,12 +62,12 @@ h2 {
     transition: 0.3s ease;
 }
 
-.navbar a:hover{
+.sidenav a:hover{
     border-bottom: 3px solid blanchedalmond;
 }
 
-.navbar a:hover,
-.navbar a.active{
+.sidenav a:hover,
+.sidenav a.active{
     color: blanchedalmond;
 }
 
@@ -111,3 +120,9 @@ h2 {
     text-align: center;
     margin-bottom: 2%;
 }
+
+/* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
