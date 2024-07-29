@@ -56,12 +56,17 @@ h3 {
     padding-left: 10%;
 }
 
+.sidenav {
+    display: flex;
+    flex-direction: column;
+}
+
 .sidenav a{
     font-size: 18;
     color: darkgray;
     font-weight: 400;
-    margin: 0 20px;
-    border-bottom: 3px solid transparent;
+    margin: 20px 20px;
+    border-bottom: 2px solid transparent;
     transition: 0.3s ease;
 }
 
