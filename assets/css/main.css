@@ -59,19 +59,19 @@ h3 {
 .sidenav {
     display: flex;
     flex-direction: column;
+    max-width: 20%;
 }
 
 .sidenav a{
     font-size: 18;
-    color: darkgray;
+    color: rgb(88, 88, 88);
     font-weight: 400;
     margin: 20px 20px;
-    border-bottom: 2px solid transparent;
     transition: 0.3s ease;
 }
 
 .sidenav a:hover{
-    border-bottom: 3px solid blanchedalmond;
+    padding-left: 5px;
 }
 
 .sidenav a:hover,
