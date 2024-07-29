@@ -16,6 +16,7 @@
 
 p {
     color: beige;
+    font-size: 18px;
 }
 
 body {
@@ -35,6 +36,16 @@ h3 {
     color: rgb(225, 205, 175);
 }
 
+.link {
+    font-weight: bold;
+    color: beige;
+    transition: 0.3s ease;
+}
+
+.link:hover {
+    color: rgb(255, 236, 151);
+}
+
 .icon {
     float: left;
     padding: 10px;
@@ -49,7 +60,7 @@ h3 {
     left: 0;
     overflow-x: hidden;
     padding-top: 20px;
-    background-color: rgb(20, 20, 20);
+    background-color: rgb(12, 12, 12);
 }
 
 .sidebar-inner {
