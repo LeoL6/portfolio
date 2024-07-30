@@ -6,6 +6,8 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 
+		<script src="assets/js/main.js"></script>
+
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 		<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
@@ -27,9 +29,9 @@
 				</div>
 	
 				<div class="sidenav">
-					<a href="#about-anchor" class="active">About</a>
-					<a href="#project-anchor">Work</a>
-					<a href="#contact-anchor">Contact</a>
+					<a href="#about-anchor" onclick="changeActiveElement(this)" id="active">About</a>
+					<a href="#project-anchor" onclick="changeActiveElement(this)">Work</a>
+					<a href="#contact-anchor" onclick="changeActiveElement(this)">Contact</a>
 				</div>
 			</div>
 		</div>

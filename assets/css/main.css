@@ -146,7 +146,7 @@ h3 {
 }
 
 .sidenav a:hover,
-.sidenav a.active{
+.sidenav a#active{
     color: blanchedalmond;
 }
 
@@ -154,5 +154,9 @@ h3 {
     .sidebar {
         height: 20%;
         width: 100%;
+    }
+
+    .main {
+        margin-left: 0%;
     }
 }
