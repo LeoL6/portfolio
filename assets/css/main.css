@@ -49,23 +49,6 @@ h3 {
     color: rgb(255, 236, 151);
 }
 
-.portrait img{
-    border: 2px solid;
-    border-color: blanchedalmond;
-    border-radius: 10%;
-}
-
-.intro-flex {
-    margin-top: 12%;
-
-    display: flex;
-    justify-content: center;
-}
-
-.portrait + .intro-text {
-    margin-left: 10px;
-}
-
 .section {
     margin-top: 8%;
 }
@@ -150,13 +133,42 @@ h3 {
     color: blanchedalmond;
 }
 
+/* INTRO SECTION */
+
+.portrait img{
+    border: 2px solid;
+    border-color: blanchedalmond;
+    border-radius: 10%;
+}
+
+.intro-flex {
+    margin-top: 12%;
+
+    display: flex;
+    justify-content: center;
+}
+
+.portrait + .intro-text {
+    margin-left: 10px;
+}
+
+
 @media screen and (max-width: 1100px) {
+    .sidenav {
+        display: none;
+    }
+
     .sidebar {
-        height: 20%;
+        height: 40%;
         width: 100%;
+        padding-top: 5px;
     }
 
     .main {
         margin-left: 0%;
+    }
+
+    .intro-flex {
+        margin-top: 5%;
     }
 }
