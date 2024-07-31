@@ -167,7 +167,7 @@ h3 {
     } */
 
     .intro-flex {
-        margin-top: 5%;
+        margin-top: 10%;
     }
 
     .sidebar {
@@ -180,5 +180,17 @@ h3 {
 
     #hidden-intro {
         display: flex;
+    }
+}
+
+@media screen and (max-width: 730px) {
+    .section-flex {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .element {
+        width: 60vw;
+        height: 60vw;
     }
 }
