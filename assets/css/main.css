@@ -186,3 +186,9 @@ h3 {
         height: 60vw;
     }
 }
+
+@media screen and (max-width: 450px) {
+    p {
+        font-size: 4vw;
+    }
+}
