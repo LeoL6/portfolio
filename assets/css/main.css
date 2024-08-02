@@ -20,6 +20,7 @@ p {
     color: beige;
     font-size: 18px;
     text-align: center;
+    margin: 10px;
 }
 
 body {
@@ -83,15 +84,6 @@ h3 {
 }
 
 /* NAV BAR */
-
-/* .header {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    padding: 20x 10%;
-    background: rgba(20, 20, 20, 0.8);
-} */
 
 .sidebar {
     height: 100%;
