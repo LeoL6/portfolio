@@ -18,7 +18,7 @@
 
 p {
     color: beige;
-    font-size: 18px;
+    font-size: 16px;
     text-align: center;
     margin: 10px;
 }
@@ -81,6 +81,10 @@ h3 {
 
 .social-link:hover {
     fill: blanchedalmond;
+}
+
+.contact-paragraph {
+    font-size: 18px;
 }
 
 /* NAV BAR */
