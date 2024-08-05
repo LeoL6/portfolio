@@ -215,4 +215,13 @@ h3 {
     h3 {
         font-size: 4vw;
     }
+
+    .contact-paragraph {
+        font-size: 4.5vw;
+    }
+
+    .social-link {
+        width: 15vw;
+        height: 15vw;
+    }
 }
