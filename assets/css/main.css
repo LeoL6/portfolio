@@ -197,3 +197,22 @@ h3 {
         font-size: 4vw;
     }
 }
+
+@media screen and (max-width: 375px) {
+    .portrait img{
+        width: 50vw;
+        height: 50vw;
+    }
+
+    h1 {
+        font-size: 8vw;
+    }
+
+    h2 {
+        font-size: 6vw;
+    }
+
+    h3 {
+        font-size: 4vw;
+    }
+}
