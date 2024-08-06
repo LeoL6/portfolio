@@ -190,6 +190,10 @@ h3 {
         width: 60vw;
         height: 60vw;
     }
+
+    p {
+        font-size: 4vw;
+    }
 }
 
 @media screen and (max-width: 450px) {
