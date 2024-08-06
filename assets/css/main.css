@@ -40,6 +40,20 @@ h3 {
     color: rgb(225, 205, 175);
 }
 
+#canada {
+    font-weight: bolder;
+    background: linear-gradient(to left, red, white, red);
+    background-clip: text;
+    color: transparent;
+}
+
+#america {
+    font-weight: bolder;
+    background: linear-gradient(to left, red, white, blue);
+    background-clip: text;
+    color: transparent;
+}
+
 .link {
     font-weight: bold;
     color: beige;
@@ -224,7 +238,11 @@ li {
     }
 
     p {
-        font-size: 4vw;
+        font-size: 5vw;
+    }
+
+    .link {
+        font-size: 4.5vw;
     }
 }
 
@@ -250,6 +268,10 @@ li {
 
     h3 {
         font-size: 4vw;
+    }
+
+    .link {
+        font-size: 4.5vw;
     }
 
     .contact-paragraph {
