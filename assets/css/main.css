@@ -152,17 +152,32 @@ h3 {
     margin-left: 10px;
 }
 
+/* LANGUAGE LIST DROPDOWN */
+
+li {
+    color: beige;
+    font-size: 16px;
+    text-align: center;
+    margin: 8px;
+}
+
+#dropdown {
+    display: none;
+    background-color:  rgb(12, 12, 12);
+    z-index: 100;
+}
+
+#dropdown-label {
+    text-align: center;
+}
+
+#dropdown-hover:hover #dropdown {
+    display: block;
+}
+
+/* @MEDIA */
+
 @media screen and (max-width: 1100px) {
-    /* .sidenav {
-        display: none;
-    }
-
-    .sidebar {
-        height: 40%;
-        width: 100%;
-        padding-top: 5px;
-    } */
-
     .intro-flex {
         margin-top: 10%;
     }
