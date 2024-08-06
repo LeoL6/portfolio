@@ -163,11 +163,20 @@ li {
 
 #dropdown {
     height: 0px;
+    width: 80%;
+    max-height: 0px;
+    overflow: hidden;
+
     opacity: 0;
     background-color:  rgb(12, 12, 12);
+
     border-radius: 5%;
     border: 1px solid;
     border-color: blanchedalmond;
+
+    text-align: center;
+    display: inline-block;
+
     transition: all .5s ease;
     z-index: 100;
 }
@@ -178,6 +187,7 @@ li {
 
 #dropdown-hover:hover #dropdown {
     height: 250px;
+    max-height: 250px;
     opacity: 1;
     transform: translateY(0);
 }
