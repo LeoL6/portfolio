@@ -162,8 +162,13 @@ li {
 }
 
 #dropdown {
-    display: none;
+    height: 0px;
+    opacity: 0;
     background-color:  rgb(12, 12, 12);
+    border-radius: 5%;
+    border: 1px solid;
+    border-color: blanchedalmond;
+    transition: all .5s ease;
     z-index: 100;
 }
 
@@ -172,7 +177,9 @@ li {
 }
 
 #dropdown-hover:hover #dropdown {
-    display: block;
+    height: 250px;
+    opacity: 1;
+    transform: translateY(0);
 }
 
 /* @MEDIA */
