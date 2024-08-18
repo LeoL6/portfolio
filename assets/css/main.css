@@ -14,6 +14,16 @@
     list-style: none;
 
     scroll-behavior: smooth !important;
+
+    /* NO SELECT */
+
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Edge, Opera and Firefox */
 }
 
 p {
@@ -56,12 +66,12 @@ h3 {
 
 .link {
     font-weight: bold;
-    color: beige;
+    color: rgb(209, 194, 171);
     transition: 0.3s ease;
 }
 
 .link:hover {
-    color: rgb(255, 236, 151);
+    color: beige;
 }
 
 .section {
@@ -78,10 +88,18 @@ h3 {
     width: 200px;
     height: 200px;
 
-    border: 2px solid;
-    border-color: blanchedalmond;
+    border: 1px solid;
+    border-color: rgb(85, 85, 85);
     border-radius: 5%;
+
+    transition: 0.3s ease;
 }
+
+.element:hover {
+    border-color: blanchedalmond;
+}
+
+/* ADD ELEMENT HOVERS rgb(85, 85, 85); BLANCHED ALMOND*/
 
 .section-title {
     text-align: center;
@@ -200,8 +218,8 @@ li {
 }
 
 #dropdown-hover:hover #dropdown {
-    height: 250px;
-    max-height: 250px;
+    height: 225px;
+    max-height: 225px;
     opacity: 1;
     transform: translateY(0);
 }
