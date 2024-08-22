@@ -125,7 +125,7 @@ h3 {
 
 .sidebar {
     height: 100%;
-    width: max-content;
+    width: 40%;
     position: fixed;
     z-index: 1;
     top: 0;
@@ -178,7 +178,7 @@ h3 {
     margin-top: 12%;
 
     display: flex;
-    justify-content: center;
+    /* justify-content: center; */
 }
 
 .portrait + .intro-text {
