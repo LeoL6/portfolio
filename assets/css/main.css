@@ -225,6 +225,22 @@ li {
     transform: translateY(0);
 }
 
+/* PROJECT SECTION */
+
+div.project-flex {
+    display: flex;
+
+    padding: 2%;
+}
+
+.project-icon {
+    width: 50%;
+
+    border: 1px solid;
+    border-radius: 10%;
+    border-color: rgb(85, 85, 85);;
+}
+
 /* @MEDIA */
 
 @media screen and (max-width: 1100px) {
