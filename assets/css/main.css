@@ -50,20 +50,6 @@ h3 {
     color: rgb(196, 179, 153);
 }
 
-#canada {
-    font-weight: bolder;
-    background: linear-gradient(to left, red, white, red);
-    background-clip: text;
-    color: transparent;
-}
-
-#america {
-    font-weight: bolder;
-    background: linear-gradient(to left, red, white, blue);
-    background-clip: text;
-    color: transparent;
-}
-
 .link {
     font-weight: bold;
     color: rgb(209, 194, 171);
@@ -99,6 +85,20 @@ h3 {
 .element:hover {
     border-color: blanchedalmond;
 }
+
+/* LOCATION STUFF */
+
+.az-element {
+    display: none;
+    background-color: aqua;
+    color: blue;
+    width: 100px;
+    height: 100px;
+}
+
+#az-link:hover .az-element {
+    display: block;
+} 
 
 /* ADD ELEMENT HOVERS rgb(85, 85, 85); BLANCHED ALMOND*/
 
