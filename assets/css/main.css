@@ -227,10 +227,6 @@ li {
 
 /* PROJECT SECTION */
 
-.project-div {
-
-}
-
 /* 
     I THE IMAGE TO FADE AWAY AND THEN PAUSE A SECOND THEN FADE IN TEXT, THEN FADE AWAY WHEN HOVER OFF
 */
@@ -241,9 +237,22 @@ li {
 
     border-radius: 5%;
 
-    /* border: 1px solid;
-    border-radius: 10%;
-    border-color: rgb(85, 85, 85);; */
+    transition:opacity 0.3s ease;
+}
+
+.project-div {
+    text-align: center;
+    position: relative;
+}
+
+.project-div a {
+    vertical-align: middle;
+    overflow: hidden;
+    z-index: -1;
+}
+
+.project-icon:hover {
+    opacity: 0;
 }
 
 /* @MEDIA */
