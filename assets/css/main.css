@@ -227,18 +227,28 @@ li {
 
 /* PROJECT SECTION */
 
-div.project-flex {
+.project-flex {
     display: flex;
+
+    align-items: center;
+    justify-content: center;
 
     padding: 2%;
 }
 
-.project-icon {
-    width: 50%;
+/* 
+    I THE IMAGE TO FADE AWAY AND THEN PAUSE A SECOND THEN FADE IN TEXT, THEN FADE AWAY WHEN HOVER OFF
+*/
 
-    border: 1px solid;
+.project-icon {
+    width: 90%;
+    height: 90%;
+
+    border-radius: 5%;
+
+    /* border: 1px solid;
     border-radius: 10%;
-    border-color: rgb(85, 85, 85);;
+    border-color: rgb(85, 85, 85);; */
 }
 
 /* @MEDIA */
