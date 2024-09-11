@@ -230,10 +230,8 @@ li {
 .project-flex {
     display: flex;
 
-    align-items: center;
     justify-content: center;
-
-    padding: 2%;
+    align-items: center;
 }
 
 /* 
