@@ -245,7 +245,7 @@ li {
     position: relative;
 }
 
-.project-div a {
+#project-text {
     vertical-align: middle;
     overflow: hidden;
     z-index: -1;
