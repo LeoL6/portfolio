@@ -227,10 +227,6 @@ li {
 
 /* PROJECT SECTION */
 
-/* 
-    I THE IMAGE TO FADE AWAY AND THEN PAUSE A SECOND THEN FADE IN TEXT, THEN FADE AWAY WHEN HOVER OFF
-*/
-
 .project-icon {
     width: 100%;
     height: 100%;
@@ -245,13 +241,25 @@ li {
     position: relative;
 }
 
-#project-text {
-    vertical-align: middle;
+a#project-text {
+    position: absolute;
     overflow: hidden;
     z-index: -1;
-    position: absolute;
 
     top: 5px;
+    left: 5px;
+
+    opacity: 0;
+
+    transition:opacity 1s ease;
+}
+
+p#project-text {
+    position: absolute;
+    overflow: hidden;
+    z-index: -1;
+
+    top: 50px;
     left: 5px;
 
     opacity: 0;
