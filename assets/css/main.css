@@ -195,6 +195,8 @@ li {
 }
 
 #dropdown {
+    position: relative;
+    z-index: 100 !important;
     height: 0px;
     width: 80%;
     max-height: 0px;
@@ -211,7 +213,6 @@ li {
     display: inline-block;
 
     transition: all .5s ease;
-    z-index: 100;
 }
 
 #dropdown-label {
