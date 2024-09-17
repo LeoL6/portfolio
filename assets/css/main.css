@@ -241,12 +241,11 @@ li {
     position: relative;
 }
 
-a#project-text {
+#project-text {
     position: absolute;
     overflow: hidden;
     z-index: -1;
 
-    top: 5px;
     left: 5px;
 
     opacity: 0;
@@ -254,17 +253,12 @@ a#project-text {
     transition:opacity 1s ease;
 }
 
+a#project-text {
+    top: 5px;
+}
+
 p#project-text {
-    position: absolute;
-    overflow: hidden;
-    z-index: -1;
-
     top: 50px;
-    left: 5px;
-
-    opacity: 0;
-
-    transition:opacity 1s ease;
 }
 
 .project-div:hover .project-icon {
